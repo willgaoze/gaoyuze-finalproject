@@ -2,7 +2,7 @@ define(['./constants'], function (CONSTANTS) {
     return {
         getBoardDescriptor: (core, META, boardNode, nodeHash) => {
             const board = [];
-            for(let i=0;i<9;i+=1) {
+            for(let i=0;i<64;i+=1) {
                 board.push(CONSTANTS.PIECE.EMPTY);
             }
             core.getChildrenPaths(boardNode).forEach(tile => {
