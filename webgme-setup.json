@@ -30,6 +30,14 @@
       "PlayerMoves": {
         "src": "src/plugins/PlayerMoves",
         "test": "test/plugins/PlayerMoves"
+      },
+      "flipping": {
+        "src": "src/plugins/flipping",
+        "test": "test/plugins/flipping"
+      },
+      "undo": {
+        "src": "src/plugins/undo",
+        "test": "test/plugins/undo"
       }
     }
   },

@@ -15,7 +15,7 @@ export default function Board({player, board, win}) {
     return (
         <div style={{
             display:'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateColumns: 'repeat(8, 1fr)',
             gap: '0px',
             width: '300px'
         }}>
